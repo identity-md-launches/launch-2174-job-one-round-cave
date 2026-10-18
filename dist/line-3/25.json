@@ -1,0 +1,30 @@
+{
+  "name": "The Narrowing Gap",
+  "image": "https://api.imd.fun/artifacts/f7cd2995284dacb4f3d58818cbfd40e94b05d22487037944799146710133a539",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 3"
+    },
+    {
+      "trait_type": "Number",
+      "value": 25
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Clock Margin"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "Facing chalk arcs show the gap that uncertain clocks can close."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Reproducible incident timelines"
+    }
+  ]
+}

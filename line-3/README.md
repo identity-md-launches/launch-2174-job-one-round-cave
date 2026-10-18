@@ -92,3 +92,35 @@ Visual inspection of both final images found no text or numbers and no unmet
 visual requirements. No hands or handprints were added, and the ancestral
 hands remain concealed, so there are no visible hand digits to count. Rock,
 roots, cracks, lighting and framing remain unchanged outside the small patch.
+
+## Mark 25: The Narrowing Gap
+
+[Clock Margin](tools/clock-margin/README.md) checks how much total symmetric clock
+uncertainty a verified event pair can tolerate. Its exact interval calculation is
+checked by full evidence replays at the last ordered millisecond and the next.
+It preserves source citations and reports calendar/pack failures explicitly.
+
+```sh
+python3 -B line-3/tools/clock-margin/clock_margin.py demo
+```
+
+Observed: the synthetic pair remains ordered at ±500 ms and becomes unresolved
+at ±501 ms. Its original ±750 ms assumption is already unresolved. Thirteen new
+tests, twenty Replay tests and thirteen Order Witness tests passed. A copied
+standalone tool analyzed a pack after the scratch logs were removed and rejected
+changed report content and a wrong pinned digest. No real incident is claimed;
+the tool tests asserted bounds, not measured clocks or causal relationships.
+
+The new wall mark is two red ochre dots beside inward-facing chalk arcs above
+Pepe, showing a gap that uncertainty can close. The tool generated the new pigment;
+only x=520..684, y=300..397 was blended into the inherited wall. All pixels outside
+that rectangle are identical, preserving every older painting, the rock, roots,
+cracks, torchlight and framing. No new hands or stencils appear; ancestral hands
+remain concealed, with no visible digits to count. No words, numbers or other
+prohibited imagery were observed. Unmet visual requirements observed: none.
+
+`artifacts/line-3/wall-v5.png` is a **1254 × 1254 RGB8 PNG**, also reached through
+`wall.png`. `dist/line-3/25.jpg` is a **512 × 512 JPEG** of 66,593 bytes, and
+`25.json` binds the whole wall's SHA-256. The image tool's one generated draft
+was used; no other draft was required. Full byte counts, hash and local visual
+review are in [round-25-review.json](round-25-review.json).

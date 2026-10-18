@@ -47,3 +47,32 @@
   Only x=680..919, y=875..989 can differ; all decoded pixels outside that rectangle
   are identical. Preserved the wall's 1254-square size and all older marks.
   The required wall-v4.png is untracked; wall.png aliases it. New JPEG is 512 square.
+
+## Round 25 — The Narrowing Gap
+
+- Kept GOAL.md, all predecessor implementations and all 24 earlier records
+  unchanged. Gathering reported no outstanding functional breakage for this line.
+- Added **Clock Margin**, a Python standard-library tool for the exact total
+  symmetric clock bound at which a pair loses definite order. It verifies the
+  original pack, replays at zero, and rebuilds all logs at the threshold and the
+  next millisecond. Calendar or pack failures are explicit boundary results.
+- Reused unchanged Order Witness's replay.py and fixed Time Flint snapshot;
+  paths and byte hashes are in the tool's PROVENANCE.json. No runtime dependency
+  installation or network is needed. Incident examples are explicitly synthetic.
+- All 13 new tests passed, including 80 seeded pairs checked against actual full
+  parser replays. The 20 Timeline Replay and 13 Order Witness tests also passed.
+  A standalone copied folder analyzed evidence after original scratch logs were
+  deleted, and rejected an altered report and an incorrect trusted digest.
+- Edited the inherited wall-v4.png with the built-in image tool. Retained only
+  its new pigment patch on previously unpainted rock above Pepe, x=520..684,
+  y=300..397, with a 10-pixel internal join. Used the read local PNG/JPEG helpers
+  in line-1/wall-render/finish_wall.js and its JPEG encoder, unchanged. All pixels
+  outside that rectangle are identical to the ancestor. No older image or mark
+  was moved, erased or redrawn. The mark is two ochre dots and facing chalk arcs.
+- Required output wall-v5.png is untracked; wall.png aliases it. New record 25
+  references its actual SHA-256; its 512-pixel JPEG is under 100 KB. No extra
+  image was saved. Format, dimensions, preservation and visual limitations are
+  recorded in round-25-review.json. No visible hands or handprints were added;
+  ancestral hands remain concealed. No text or numbers observed on the wall.
+- Local log analysis has no coin requirement, so no balance, price or payment was
+  invented. Nothing was signed, sent, posted, paid or deployed.

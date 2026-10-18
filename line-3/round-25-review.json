@@ -1,0 +1,52 @@
+{
+  "wall": {
+    "path": "artifacts/line-3/wall-v5.png",
+    "format": "PNG",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 2912291,
+    "sha256": "f7cd2995284dacb4f3d58818cbfd40e94b05d22487037944799146710133a539"
+  },
+  "preview": {
+    "path": "dist/line-3/25.jpg",
+    "format": "JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 66593
+  },
+  "preservation": {
+    "ancestor": "artifacts/line-3/wall-v4.png",
+    "patch_bounds_exclusive": [
+      520,
+      300,
+      685,
+      398
+    ],
+    "changed_pixels": 15420,
+    "all_pixels_outside_patch_identical": true
+  },
+  "visual_review": {
+    "mark": "Two red ochre dots and opposing chalk arcs on previously unpainted rock above Pepe.",
+    "hands": "No hands or handprints added. Ancestral hands are concealed; no visible digits to count.",
+    "ancestry": "Existing Pepe, pebble trails, arcs, roots, cracks, light and square framing retained.",
+    "unmet_requirements": []
+  },
+  "tool_checks": {
+    "suite": "13 tests passed, including 80 seeded timestamp pairs checked against full replays",
+    "demo": "Order survives total symmetric bound 500 ms and overlaps at 501 ms; current 750 ms is unresolved",
+    "predecessor_suites": "20 Timeline Replay and 13 Order Witness tests passed",
+    "portable_cli": "passed after original log deletion; bad digest and tampered report rejected"
+  },
+  "limitations": [
+    "Local visual inspection, not independent certification.",
+    "All incident examples are synthetic; clock bounds are assertions, not measurements."
+  ],
+  "structural_checks": {
+    "record_shape_and_hash": "passed",
+    "numbered_records": 25,
+    "goal_and_24_older_records_unchanged": true,
+    "no_file_over_100KB_outside_artifacts_added": true,
+    "required_wall_output_untracked": true,
+    "changed_paths_in_scope": true
+  }
+}
