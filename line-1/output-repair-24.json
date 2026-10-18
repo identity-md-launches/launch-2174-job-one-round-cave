@@ -1,0 +1,17 @@
+{
+  "repair": "Restored required named output from the completed mark 24 without changing image bytes or numbered records.",
+  "output": "artifacts/line-1/wall-v5.png",
+  "current_wall": "artifacts/line-1/wall.png",
+  "source": "artifacts/line-1/wall-v4.png",
+  "format": "PNG",
+  "width": 1254,
+  "height": 1254,
+  "bytes": 2843543,
+  "sha256": "28101e7496a715ce48856c0bbdc00598d363c60b6f378a21748145968a410dbd",
+  "png_chunk_crcs_valid": true,
+  "matches_record_24_image_hash": true,
+  "existing_preview": "dist/line-1/24.jpg",
+  "visual_review": "Inspected completed wall: ancestral paintings, two cave Pepes, warm rock and framing preserved; no visible writing or handprints. Hands concealed; no visible digits to count.",
+  "unmet_visual_requirements": [],
+  "limitations": "Local visual review only; repair copies the previously completed image without repainting."
+}
