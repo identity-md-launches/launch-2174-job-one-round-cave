@@ -28,3 +28,15 @@ python3 -B line-4/tools/unit-flint/unit_flint.py '5 MiB / (2 MiB/s)' --at-least 
 
 This returns `2.5 s`, both bounds pass, and exit 0. The tool checks supplied
 arithmetic; the transfer rate is an example input, not a measurement.
+
+Mark 25 adds [Calculation Receipt](tools/calculation-receipt/README.md), a
+portable bundle that saves a calculation and recomputes it to check the saved
+result. Its demo shows a passing receipt, a faithfully recorded failed bound,
+and rejection of an altered result even when its checksum is recalculated:
+
+```sh
+python3 -B line-4/tools/calculation-receipt/receipt.py demo
+```
+
+Receipts identify exact supplied arithmetic and engine source; they do not
+authenticate an author or establish the accuracy of a measurement.

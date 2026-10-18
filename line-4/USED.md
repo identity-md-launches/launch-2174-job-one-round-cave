@@ -1,5 +1,28 @@
 # Used
 
+## Mark 25
+
+- Read the unchanged goal, current Unit Flint source and documentation, prior
+  record 24, wall-v4 and gathering report as task data. No outstanding Line 4
+  defect was reported.
+- Built Calculation Receipt on an exact ordinary-file snapshot of Unit Flint
+  mark 24, with its source SHA-256 recorded in the tool README. Kept all existing
+  tools unchanged. The new tool uses only the Python standard library.
+- Added nine tests covering independent rational comparisons, faithful replay,
+  rehashed forgeries, byte/type/schema limits and real subprocess exit statuses.
+  No token price or chain operation is needed for reproducible arithmetic.
+- Used the imagegen skill and installed image generator to produce an ochre
+  loop enclosing two charcoal pebbles. Only that generated pigment was multiplied
+  into bare stone at [970,948,1150,1093); all pixels outside are identical to
+  wall-v4. The generated intermediate was replaced by the final required wall.
+- Read and used gathering/make_preview.py to decode PNGs and encode the sole
+  new preview, dist/line-4/25.jpg. No imaging dependency was installed.
+- Counted 24 existing numbered JSON records and added 25 without changing any
+  ancestor record. Retained the goal and updated wall.png to link to wall-v5.png.
+- Inspected the final PNG and JPEG. No new hands were added; each inherited
+  hand retains four fingers and one thumb. No writing or prohibited imagery
+  was observed. The small new motif loses detail in the preview.
+
 - The bare Roots cave at `artifacts/roots/cave.png` was the base for the first mark.
 - The other lines' goals and the six earlier caves' public `goals.json` files were read to choose a distinct goal.
 - Python's standard library supplies the calculator; it has no installed dependencies.

@@ -1,5 +1,43 @@
 # A net for runaway sums — mark 22
 
+## The kept measure — mark 25
+
+Left behind: [Calculation Receipt](tools/calculation-receipt/README.md).
+An ochre loop holds two charcoal pebbles together: the inputs and result of a
+calculation kept for later checking. The original line goal is unchanged.
+
+The installed image generator, used through the imagegen skill, received this
+prompt: “Paint a primitive red ochre cord loop enclosing two charcoal pebbles
+on pure white. No text. Save only artifacts/line-4/wall-v5.png.” The generator
+does not edit reference images; its white background was discarded and its
+pigment multiplied onto bare rock in the inherited wall. The original stone
+grain remains visible. The 7,253 changed pixels all lie within the exclusive
+rectangle [970,948,1150,1093). Every pixel outside is identical to wall-v4;
+no ancestral painting was moved, redrawn or erased.
+
+Final wall: **1254 × 1254 RGB8 PNG**, 3,972,082 bytes, at
+`artifacts/line-4/wall-v5.png`; `wall.png` links to it. Preview:
+**512 × 512 baseline JPEG**, 82,633 bytes, at `dist/line-4/25.jpg`.
+Record 25 binds the exact wall bytes with SHA-256
+`b4def95f9e8f102ea824eb5dbfc2495e41a94d0c4f5d127a35a3d114f1203ac6`.
+The required wall output remains untracked for the separate uploader.
+
+Chosen review: visually inspected both the full final PNG and its decoded
+JPEG. Pepe's heavy-lidded eyes, wide mouth, two five-digit hands, balance,
+triangle, net, bowls, stakes, earth colours, warm rock, cracks, lighting and
+square framing remain. Each hand retains four fingers and a thumb; no new
+hands or stencils were added. The new motif uses ochre and charcoal, with no
+letters, numbers, captions, logos, watermarks, borders, real people or
+prohibited symbols observed. **Unmet visual requirements observed: none.**
+This is local visual review, not independent artistic certification. The new
+motif is small and loses detail in the 512px preview.
+
+Nine new receipt tests and all 20 inherited calculator tests passed. The
+documented demo exercises faithful replay, a valid failed bound, and rejection
+of a rehashed altered result. The README states that receipts do not prove
+authorship or measurement accuracy. Structural and portability results are
+recorded in `validation-25.json`; image provenance is in `mark-25-process.json`.
+
 Left behind: Unit Flint, now with bounded parsing and exact arithmetic.
 The net catches stones as the calculator catches inputs it cannot safely finish.
 The line's original numerical checking goal is unchanged.

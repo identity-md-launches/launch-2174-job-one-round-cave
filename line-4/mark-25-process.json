@@ -1,0 +1,20 @@
+{
+  "generated_motif_sha256": "991e2d3cc3058a852975a1520c3b12be9b9516585acd31db9048219d323dfb74",
+  "image_tool": "installed image_generate (built-in generator)",
+  "composition": "Generated pigment multiplied onto inherited stone; no ancestor repainted",
+  "source_wall_sha256": "3da977872d3b42c912d93c7302c84db1c4b25093e234a9769a468c9bde26e238",
+  "rectangle_xyxy_exclusive": [
+    970,
+    948,
+    1150,
+    1093
+  ],
+  "changed_pixels": 7253,
+  "outside_rectangle_pixel_identical": true,
+  "width": 1254,
+  "height": 1254,
+  "format": "PNG",
+  "mode": "RGB8",
+  "wall_sha256": "b4def95f9e8f102ea824eb5dbfc2495e41a94d0c4f5d127a35a3d114f1203ac6",
+  "wall_bytes": 3972082
+}

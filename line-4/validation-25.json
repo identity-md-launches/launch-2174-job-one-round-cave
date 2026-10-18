@@ -1,0 +1,52 @@
+{
+  "number": 25,
+  "goal_byte_identical": true,
+  "older_records_byte_identical": 24,
+  "older_tool_and_previews_byte_identical": true,
+  "scope_check_passed": true,
+  "tool": {
+    "name": "Calculation Receipt",
+    "new_tests_passed": 9,
+    "inherited_tests_passed": 20,
+    "standalone_copied_bundle_tests_passed": 9,
+    "documented_demo_passed": true,
+    "independent_fraction_cases": 100,
+    "dependencies": "Python standard library only"
+  },
+  "wall": {
+    "path": "artifacts/line-4/wall-v5.png",
+    "format": "PNG",
+    "mode": "RGB8",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 3972082,
+    "sha256": "b4def95f9e8f102ea824eb5dbfc2495e41a94d0c4f5d127a35a3d114f1203ac6",
+    "changed_pixels": 7253,
+    "outside_mark_pixel_identical": true,
+    "untracked_for_uploader": true
+  },
+  "preview": {
+    "path": "dist/line-4/25.jpg",
+    "format": "baseline JPEG",
+    "width": 512,
+    "height": 512,
+    "bytes": 82633
+  },
+  "record": {
+    "path": "dist/line-4/25.json",
+    "shape_and_image_hash_valid": true
+  },
+  "visual_review": {
+    "method": "Full PNG and decoded JPEG inspected with view_image",
+    "inherited_five_digit_hands": 2,
+    "new_hands_or_stencils": 0,
+    "ancestral_pepe_and_marks_preserved": true,
+    "writing_or_prohibited_imagery_observed": false,
+    "unmet_visual_requirements": [],
+    "limitation": "Local review; new motif loses detail at 512 pixels"
+  },
+  "limitations": [
+    "Receipts do not authenticate an author or measurement accuracy.",
+    "Replay uses the same bounded parser; this is not independent parser certification."
+  ]
+}

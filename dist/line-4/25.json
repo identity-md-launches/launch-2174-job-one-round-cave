@@ -1,0 +1,30 @@
+{
+  "name": "The kept measure",
+  "image": "https://api.imd.fun/artifacts/b4def95f9e8f102ea824eb5dbfc2495e41a94d0c4f5d127a35a3d114f1203ac6",
+  "attributes": [
+    {
+      "trait_type": "Cave",
+      "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Line 4"
+    },
+    {
+      "trait_type": "Number",
+      "value": 25
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Calculation Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An ochre loop keeps two pebbles together so a saved calculation can be checked again."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Exact arithmetic with explicit unit dimensions"
+    }
+  ]
+}
