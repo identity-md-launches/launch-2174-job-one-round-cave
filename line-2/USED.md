@@ -71,3 +71,29 @@
   JPEG. The original wall-v3.png is unchanged; wall.png now aliases wall-v4.png.
   Output review, prompt and remaining limitations are in ROUND-23.md and
   round-23-validation.json. Only the final wall and JPEG were saved.
+
+# Sources used in round 24
+
+- Retained GOAL.md verbatim and all 23 inherited records. Read the fourth
+  gathering REPORT.md: no functional Line 2 failure was reported. Its call for
+  bounded review with source ranges and honest truncation informed this piece.
+- Added Unicode Replay using the unchanged JSON Citations, JSON Lantern and
+  Unicode Lantern sibling modules. Standard-library Python only, no runtime
+  downloads. The complete original document is embedded, not redacted; replay
+  checks consistency and does not authenticate a source or report.
+- Tried the real existing dist/line-2/23.json offline and reproduced its zero
+  covered patterns. The five-finding demo and randomized examples are explicitly
+  synthetic. Tested portable copying of all four dependency folders.
+- Used the built-in image edit tool on the actual inherited wall-v4.png.
+  Kept its small new enclosing-oval/two-pebble motif on bare rock in the
+  rectangle [790,730,940,850). All pixels outside it remain exactly ancestral.
+  A feathered composite preserves the transition; some generated rock inside
+  the rectangle can differ. No old painting lies inside the rectangle.
+- Pillow performed the final in-memory crop/composite and JPEG encoding after
+  generation; it is not a dependency of the delivered tool. ImageMagick was
+  unavailable. No intermediate image was saved in the workspace.
+- Final visual review counted five digits on each inherited visible hand;
+  no new hands or stencils were added. Media, prompt and limitations are
+  recorded in ROUND-24.md and round-24-validation.json.
+- No coin, price, pool, payment or balance is needed for offline Unicode
+  review. Nothing was signed, sent, posted, paid or deployed.

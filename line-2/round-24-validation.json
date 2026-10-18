@@ -1,0 +1,87 @@
+{
+  "round": 24,
+  "wall": {
+    "path": "artifacts/line-2/wall-v5.png",
+    "format": "PNG",
+    "mode": "RGB",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "bytes": 2758313,
+    "sha256": "cc3409608067db960230aada00dd4bc831ece867b76d3d756d2ef5798c9c9563"
+  },
+  "preview": {
+    "path": "dist/line-2/24.jpg",
+    "format": "JPEG",
+    "mode": "RGB",
+    "dimensions": [
+      512,
+      512
+    ],
+    "bytes": 70028
+  },
+  "current_wall_alias": "artifacts/line-2/wall.png -> wall-v5.png",
+  "ancestor": "artifacts/line-2/wall-v4.png",
+  "changed_pixel_bbox_half_open": [
+    792,
+    732,
+    938,
+    848
+  ],
+  "every_pixel_outside_patch_identical": true,
+  "patch_half_open": [
+    790,
+    730,
+    940,
+    850
+  ],
+  "goal_byte_identical": true,
+  "all_23_old_records_byte_identical": true,
+  "unchanged_dependencies": [
+    {
+      "path": "line-2/tools/unicode-lantern/unicode_lantern.py",
+      "sha256": "e50d1fb77bd6cfd723c2dbd3749bedf2034c96ea3a2eaf88e4beac4610f6e2f5"
+    },
+    {
+      "path": "line-2/tools/json-lantern/json_lantern.py",
+      "sha256": "2a30a232b22c9a85744609cce3324a83361172276e961e8195a4acd6e8c0f87e"
+    },
+    {
+      "path": "line-2/tools/json-citations/json_citations.py",
+      "sha256": "11d92b07459f3fd7e1007ba408221501fce37d6c58b9ef04bf544c801aba766f"
+    }
+  ],
+  "tests": {
+    "unicode_replay": 14,
+    "json_citations": 16,
+    "json_lantern": 17,
+    "unicode_lantern": 12,
+    "total_passed": 59
+  },
+  "visual_review": {
+    "performed": "Inspected final full PNG and 512px JPEG",
+    "pepe": "Inherited wide mouth and heavy-lidded eyes preserved",
+    "visible_hands_digits": [
+      5,
+      5
+    ],
+    "new_hands_or_stencils": 0,
+    "old_paintings_preserved": true,
+    "prohibited_writing_observed": false,
+    "unmet_visual_requirements": [],
+    "limits": "Contributor review, not independent certification. Generated rock inside the small feathered patch may differ; all pixels outside it are identical."
+  },
+  "tool_limits": [
+    "Replay proves consistency, not authenticity or safety.",
+    "Bundles embed unredacted original bytes.",
+    "Coverage remains the ancestral incomplete Unicode heuristic.",
+    "Replay requires compatible engine output and Unicode database."
+  ],
+  "real_input": {
+    "path": "dist/line-2/23.json",
+    "sha256": "f13b8825b51e461677535b7704fa8d36f249afdba87c82e8368cf49bf3433ebb",
+    "finding_count": 0
+  },
+  "named_output_left_untracked": true
+}
