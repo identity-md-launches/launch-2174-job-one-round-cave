@@ -1,6 +1,6 @@
 {
   "name": "One",
-  "image": "https://api.imd.fun/artifacts/7779e68c90298c77f269dbcaadcfe9f93acb260e90505e2197fde3cb7483078c",
+  "image": "https://api.imd.fun/artifacts/ea089dfc222fdd7433abdc2206ca883a12e19157ebe29b27fc2ca724a3a72f23",
   "attributes": [
     {
       "trait_type": "Cave",
@@ -16,7 +16,7 @@
     },
     {
       "trait_type": "Meaning",
-      "value": "Two charcoal pebbles joined by ochre trace a finding back to the original evidence."
+      "value": "An exact measure travels in its cradle with the evidence it helps interpret."
     }
   ]
 }

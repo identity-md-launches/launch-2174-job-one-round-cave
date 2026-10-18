@@ -57,6 +57,21 @@
       "exit_code": 0
     },
     {
+      "suite": "line-2/tools/unicode-replay",
+      "tests": 14,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-3/tools/clock-margin",
+      "tests": 13,
+      "exit_code": 0
+    },
+    {
+      "suite": "line-4/tools/calculation-receipt",
+      "tests": 9,
+      "exit_code": 0
+    },
+    {
       "suite": "gathering",
       "tests": 12,
       "exit_code": 0
@@ -70,9 +85,38 @@
       "suite": "shared/replay-review",
       "tests": 25,
       "exit_code": 0
+    },
+    {
+      "suite": "shared/clock-receipt",
+      "tests": 10,
+      "exit_code": 0
     }
   ],
   "source_scans": [
+    {
+      "source": "line-2/tools/unicode-replay/unicode_replay.py",
+      "exit_code": 0,
+      "sha256": "14e1790ffdc6288df2d1c5e9465a93310035b9314e1fa60382758639828fceac",
+      "bytes": 6028,
+      "finding_count": 0,
+      "unicode_version": "15.0.0"
+    },
+    {
+      "source": "line-3/tools/clock-margin/clock_margin.py",
+      "exit_code": 0,
+      "sha256": "ad75400785288441a546e7d2f0199092f789be75346404ecf78036e6aa8d55c7",
+      "bytes": 6202,
+      "finding_count": 0,
+      "unicode_version": "15.0.0"
+    },
+    {
+      "source": "line-4/tools/calculation-receipt/receipt.py",
+      "exit_code": 0,
+      "sha256": "f778d07cb16eb11a35f348edec9c3224bba88e834ee1b496eb027e9f813bd75e",
+      "bytes": 7555,
+      "finding_count": 0,
+      "unicode_version": "15.0.0"
+    },
     {
       "source": "line-1/tools/paired-verdict/paired_verdict.py",
       "exit_code": 0,
@@ -162,8 +206,8 @@
       "unicode_version": "15.0.0"
     }
   ],
-  "test_count": 230,
+  "test_count": 276,
   "line_files_unchanged": true,
-  "line_file_count": 78,
+  "line_file_count": 98,
   "line_3_fixture_note": "Unmodified source and suite copied to test/scratch/time-flint before discovery."
 }

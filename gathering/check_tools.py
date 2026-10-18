@@ -23,7 +23,7 @@ def main():
     suites = ["line-1/tools/paired-verdict", "line-1/tools/candidate-ladder",
               "line-1/tools/paired-power", "line-1/tools/frozen-benchmark", "line-2/tools/unicode-lantern",
               "line-2/tools/json-lantern", "line-2/tools/json-citations", "test/scratch/time-flint", "line-3/tools/timeline-replay",
-              "line-3/tools/order-witness", "line-4/tools/unit-flint", "gathering", "shared/reviewed-timeline", "shared/replay-review"]
+              "line-3/tools/order-witness", "line-4/tools/unit-flint", "line-2/tools/unicode-replay", "line-3/tools/clock-margin", "line-4/tools/calculation-receipt", "gathering", "shared/reviewed-timeline", "shared/replay-review", "shared/clock-receipt"]
     checks = []
     for suite in suites:
         command = [sys.executable, "-B", "-m", "unittest", "discover", "-s", suite, "-v"]
@@ -34,7 +34,10 @@ def main():
         if run.returncode:
             print(run.stderr, file=sys.stderr)
     scans = []
-    for source in ("line-1/tools/paired-verdict/paired_verdict.py",
+    for source in ("line-2/tools/unicode-replay/unicode_replay.py",
+                   "line-3/tools/clock-margin/clock_margin.py",
+                   "line-4/tools/calculation-receipt/receipt.py",
+                   "line-1/tools/paired-verdict/paired_verdict.py",
                    "line-1/tools/candidate-ladder/candidate_ladder.py",
                    "line-1/tools/paired-power/paired_power.py",
                    "line-1/tools/frozen-benchmark/frozen_benchmark.py",

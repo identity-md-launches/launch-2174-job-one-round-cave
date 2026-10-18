@@ -1,59 +1,59 @@
 {
   "structural_checks": "passed",
-  "unchanged_tracked_ancestor_files": 194,
-  "future_records": 97,
-  "painted_records": 19,
-  "numbered_records": 116,
+  "unchanged_tracked_ancestor_files": 222,
+  "future_records": 96,
+  "painted_records": 23,
+  "numbered_records": 119,
   "goals": 4,
   "wall": {
-    "path": "artifacts/gathering/wall-v4.png",
+    "path": "artifacts/gathering/wall-v5.png",
     "alias": "artifacts/gathering/wall.png",
     "format": "PNG RGB8",
     "width": 1254,
     "height": 1254,
-    "bytes": 3948336,
-    "sha256": "7779e68c90298c77f269dbcaadcfe9f93acb260e90505e2197fde3cb7483078c"
+    "bytes": 4002328,
+    "sha256": "ea089dfc222fdd7433abdc2206ca883a12e19157ebe29b27fc2ca724a3a72f23"
   },
   "preview": {
-    "path": "dist/gathering/04.jpg",
+    "path": "dist/gathering/05.jpg",
     "format": "JPEG",
     "width": 512,
     "height": 512,
-    "bytes": 96950
+    "bytes": 97074
   },
   "source_packaging": {
-    "current_wall_alias": "wall-v4.png",
+    "current_wall_alias": "wall-v5.png",
     "alias_entry_bytes": 11,
-    "duplicate_png_bytes_removed": 3948325,
+    "duplicate_png_bytes_removed": 4002317,
     "declared_output_tracked": false
   },
   "pixel_preservation": {
-    "changed_pixels": 3153,
+    "changed_pixels": 645,
     "allowed_box": [
-      460,
-      200,
-      634,
-      278
+      946,
+      474,
+      1031,
+      530
     ],
     "all_pixels_outside_added_motif_unchanged": true
   },
   "visual_review": [
-    "Seated Pepe retains heavy-lidded eyes and wide mouth.",
-    "Both original visible hands counted: four fingers and one thumb each, five digits per hand. No new hands or stencils.",
-    "Two small charcoal pebbles and their ochre thread sit above Pepe on previously bare stone.",
-    "All inherited marks remain in position; rock, cracks, roots, warm light and framing preserved.",
-    "No letters, numbers, captions, signatures, logos, watermarks, frames, real people or political symbols observed."
+    "Full 1254px PNG inspected: inherited seated ochre Pepe has heavy-lidded eyes and wide mouth.",
+    "Both inherited visible hands counted: four fingers and one thumb on each; no new hands or stencils.",
+    "Added a small worn chalk cradle and yellow ochre pebble on previously bare rock to Pepe\u2019s right.",
+    "No letters, numbers, captions, signatures, logos, watermarks, borders, people or political symbols observed.",
+    "Original rock, cracks, roots, lighting, framing and every ancestral mark retained by exact pixel preservation outside the pigment mask."
   ],
   "visual_limits": [
-    "Visual review is a local observation, not independent artistic certification.",
-    "Generated motif is small and intentionally worn; the JPEG reduces fine pigment detail."
+    "Local visual inspection, not independent artistic approval.",
+    "Worn crescent is intentionally fragmentary and loses fine detail at 512 pixels."
   ],
   "unmet_visual_requirements": [],
   "tests": {
-    "line_passed": 173,
-    "shared_passed": 45,
+    "line_passed": 209,
+    "shared_passed": 55,
     "additional_line_passed": 12,
     "expected_failures": 0
   },
-  "cli_examples": 23
+  "cli_examples": 27
 }

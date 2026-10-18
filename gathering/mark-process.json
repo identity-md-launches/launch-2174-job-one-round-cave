@@ -1,22 +1,15 @@
 {
-  "method": "Composite only generated pigment pixels from the generated pebble/thread motif onto the unchanged inherited wall; discard generated replacement composition.",
-  "image_tool": "mcp__image__generate_image",
-  "generated_donor_sha256": "a8827031abb0f7207eedc20822ca07872012f558fb5e6c6d30082afa1ff057dc",
-  "ancestor": "artifacts/gathering/wall-v3.png",
-  "ancestor_sha256": "1dfc13ced7ee35bdbaae5439246fd231f19d62be8818ee18109a3b8d0735760e",
-  "donor_box": [
-    1032,
-    411,
-    1206,
-    489
-  ],
+  "method": "Only generated chalk and ochre pigment in a new crescent/pebble motif is composited onto unchanged ancestral pixels.",
+  "image_tool": "image_gen.imagegen",
+  "ancestor": "artifacts/gathering/wall-v4.png",
+  "ancestor_sha256": "7779e68c90298c77f269dbcaadcfe9f93acb260e90505e2197fde3cb7483078c",
+  "generated_donor_sha256": "7c79d9baaefe70e4c936e6bf8863b9c2b33bebedaeeea5bfde90ebe80335ed08",
   "destination_box": [
-    460,
-    200,
-    634,
-    278
+    946,
+    474,
+    1031,
+    530
   ],
-  "changed_pixels": 3153,
-  "preservation": "Every pixel outside the pigment mask is identical to ancestor. No other region resized, moved or repainted.",
-  "mask": "Only dark pebble pigment inside two ellipses, plus ochre thread between them; no generated backdrop."
+  "changed_pixels": 645,
+  "preservation": "Every pixel outside the added pigment mask is identical to Gathering 04."
 }

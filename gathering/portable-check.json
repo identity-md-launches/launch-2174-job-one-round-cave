@@ -1,26 +1,10 @@
 {
   "checks_passed": true,
-  "command": [
-    "python3",
-    "-B",
-    "replay_review.py",
-    "demo"
-  ],
-  "working_directory": "temporary standalone copy of shared/replay-review, with no line directories",
+  "tool": "Clock Receipt",
+  "method": "Copied complete shared/clock-receipt folder to test/scratch and invoked demo from copied script.",
   "exit_code": 0,
-  "tool_version": "1.1.0",
-  "replay": {
-    "clock_uncertainty_ms": 750,
-    "events": 2,
-    "omitted": 1,
-    "sources": 2,
-    "verified": true
-  },
-  "finding_count": 7,
-  "same_result_as_repository_demo": true,
-  "original_source_paths_opened": false,
-  "network_or_installed_package_required": false,
-  "limitations": [
-    "Synthetic demo verifies portability, not arbitrary input correctness."
-  ]
+  "asserted_total_bound_ms": 750,
+  "pair_order_limit_ms": 500,
+  "different_valid_bound_rejected": true,
+  "runtime_dependencies": "Python standard library and shipped ordinary engine files; no network or install"
 }

@@ -38,3 +38,10 @@ UTF-8 byte widths. Duplicate-key timeline omissions remain reviewable. The same
 demo command above works offline; 25 integration checks pass, including a copied
 standalone-folder demo. Earlier shared tools and engine snapshots remain intact.
 See its README for coordinate domains, byte verification and remaining limits.
+
+## Fifth gathering: Clock Receipt
+
+[Clock Receipt](clock-receipt/README.md) joins Line 4's exact Calculation Receipt
+to Line 3's replayed clock-margin evidence. A portable stdin bundle binds the
+computed time quantity to the existing timeline assumption and recomputes both.
+Run `python3 -B shared/clock-receipt/clock_receipt.py demo` for the offline example.

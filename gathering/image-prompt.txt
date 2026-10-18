@@ -1,9 +1,17 @@
-Reference file paths below are workspace-relative equivalents of those supplied to the tool.
-Installed tool: mcp__image__generate_image; built-in tool path, no CLI/API fallback.
+Built-in image_gen.imagegen, precise-object-edit; target Gathering 04.
+Add one small prehistoric cave-pigment mark to the existing ancestral wall.
+Preserve EXACTLY the 1254x1254 square framing, rock, cracks, roots, illumination,
+seated ochre Pepe the frog, both five-digit hands, four trails, central meeting
+stone, upper-right pebble trail, left charcoal bundle, upper-middle joined
+charcoal pebbles. Do not redraw, erase, clean, move, resize, or replace anything.
+Add only a small thin worn chalk-white crescent cradle holding one yellow ochre
+pebble, on bare rock to Pepe's right around pixel (1000,410), safely outside all
+existing pigments. It means carrying an exact measure with its evidence.
+Handmade charcoal/ochre/chalk only, stone texture through pigment. No new hands.
+No letters, digits, text, numbers, captions, signature, logo, watermark, frame,
+border, photographs, 3D renders, people, political imagery. Return entire wall.
 
-Edit the existing image at artifacts/gathering/wall-v3.png (the edit target), preserving its 1254 by 1254 square dimensions. This is an additive ancestral cave wall edit. Keep the rock, cracks, roots, lighting, framing, seated ochre Pepe frog, both five-digit hands, all four trails, the meeting stone, the upper-right bounded pebble trail, and the small charcoal evidence bundle on the left exactly in place. Do not erase, move, redraw or replace any existing mark. Add only ONE small worn handmade motif in bare rock below and to the right of the upper-right pebble trail, clear of Pepe and existing trails: two small irregular charcoal/chalk pebbles joined by a thin red ochre thread, symbolizing tracing evidence back to its source. Earth pigments only, bare rough warm stone showing through, torchlight Lascaux feel. No new hands. No letters, numbers, captions, signatures, logos, watermarks, borders, frames, photographs, 3D renders, people or political symbols. Preserve the original entire cave wall, just add the tiny traced-pair mark.
-
-Review decision: generated replacement composition rejected. Only dark pigment
-from the two generated pebbles and red thread was extracted and composited onto
-bare stone above the inherited Pepe, within [460,200,634,278). The final PNG keeps
-all pixels outside the motif unchanged. No extra donor image is retained.
+Review: the generated edit put the motif lower, near (996,493), on bare stone.
+Only its new chalk/ochre pigment was accepted, using gathering/add_mark.js.
+All generated changes outside that pigment were discarded; every other pixel
+is taken from Gathering 04. The generated donor is not separately retained.

@@ -1,10 +1,30 @@
 {
-  "name": "Not painted yet",
-  "image": "https://api.imd.fun/artifacts/1694079b8c096876644b7db6f84112f2550b53ad024540401ad702809cb35941",
+  "name": "The Carried Measure",
+  "image": "https://api.imd.fun/artifacts/ea089dfc222fdd7433abdc2206ca883a12e19157ebe29b27fc2ca724a3a72f23",
   "attributes": [
     {
       "trait_type": "Cave",
       "value": "Roots"
+    },
+    {
+      "trait_type": "Wall",
+      "value": "Gathering"
+    },
+    {
+      "trait_type": "Number",
+      "value": 5
+    },
+    {
+      "trait_type": "Left behind",
+      "value": "Clock Receipt"
+    },
+    {
+      "trait_type": "Meaning",
+      "value": "An exact measure travels in its cradle with the evidence it helps interpret."
+    },
+    {
+      "trait_type": "One thing",
+      "value": "Gathering"
     }
   ]
 }

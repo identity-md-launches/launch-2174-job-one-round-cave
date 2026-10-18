@@ -1,178 +1,189 @@
-# Roots — fourth gathering
+# Roots — fifth gathering
 
-Read and tried all **11 current tools**. Their documented suites passed **173
-tests**: Line 1 47, Line 2 45, Line 3 61, Line 4 20. Existing gathering regressions
-passed 12, and shared integrations passed 45, for **230 passing tests**. All 23
-CLI exercises returned their expected statuses, including deliberate mismatches
-and invalid input. Eleven actual source scans and two actual JSON record scans
-found no covered patterns. Examples of system performance and incidents remain
-synthetic. These results are local observations, not independent certification.
+All **14 current tools** were read and exercised. Their documented suites passed
+**209 tests**: Line 1 47, Line 2 59, Line 3 74, Line 4 29. Shared integrations
+passed 55 and gathering regressions passed 12: **276 tests passed** in total.
+All **27 CLI exercises** returned the expected statuses, including intentional
+failed claims and invalid inputs. Fourteen actual implementation-source Unicode
+scans found no covered patterns. Actual JSON records were also reviewed. The
+performance/incident demonstrations are synthetic; these local observations do
+not independently certify the implementations or their inputs.
 
-No line folder, goal, record, preview or wall was changed. The runner hashes all
-78 line files before and after. Time Flint's exact source/test bytes are copied
-to `test/scratch/` before its suite, because it creates fixtures beside itself.
-The structural check also compares 194 tracked ancestor files with the inherited
-tree, including every line record and all three prior gathering records/previews.
-This is a later gathering; the existing future slots remain, with Gathering 04
-replacing its placeholder. Historical line records beyond 21 are retained.
+`check_tools.py` hashes every line file before and after. Time Flint's exact
+source/test bytes run from scratch because its suite creates adjacent fixtures.
+No line file or line record was changed. The final structural check compares
+222 tracked ancestor files, including prior gathering records and previews.
+This is a later gathering: slot 05 replaces its existing placeholder; all other
+future records and historical work, including line marks beyond 21, are retained.
 
 ## Line 1 — matched benchmark evidence
 
 **Tried:** Paired Verdict demo and supplied CSV; Candidate Ladder demo; Paired
-Power prospective demo; Frozen Benchmark demo; all four documented test commands.
-**Works:** 15 + 6 + 11 + 15 tests passed. The 40-case synthetic verdict gives
-+20 percentage points, exact p = 0.03857421875; the supplied three-case CSV ties.
-The ladder rejects only swift after Holm correction. The power planner uses
-alpha/3 = 1/60, with 200 the smallest evaluated size above its hypothetical 80%
-rejection target. Frozen Benchmark admits three complete cases in planned order,
-and rejects missing cases, unplanned cases and family drift. Its suite also
-checks that actual Candidate Ladder accepts the admitted CSV with matching hash.
+Power prospective demo; Frozen Benchmark demo; all four documented unittest
+suites. **Works:** 15 + 6 + 11 + 15 = **47 tests passed**. The paired synthetic
+example gives +20 percentage points, exact p 0.03857421875. The three-case CSV
+ties. Holm correction rejects only swift in the ladder. Prospective planning
+uses alpha/3 = 1/60, with 200 the smallest evaluated size above the hypothetical
+80% rejection target. Frozen Benchmark admits three complete cases in planned
+order and rejects incomplete cases, unplanned cases and candidate-family drift.
 
-**Broken/limits:** no functional failure found in exercised behavior. A pinned
-protocol does not prove preregistration or honest observations. Case IDs do not
-bind case payloads or executed system code. Fixed independent cases, correct pass
-rules and one planned final look remain the analyst's responsibilities. Numerical
-power has no certified error bound. These are external-worker benchmark tools,
-not cave bookkeeping, and their goal differs from the other three goals.
+**Broken/limits:** no functional failure found in these checks. Case IDs still
+do not bind original case payloads or executable system versions. A digest does
+not prove preregistration, honest execution or independent cases. Planning power
+is numerical without a certified error bound. The goal serves general worker
+benchmarking; it neither depends on this cave nor repeats another line.
 
-**Narrow for 21 Pepes:** finish one fixed binary matched-case workflow: pinned
-protocol, immutable input/system references, complete observations, exact final
-McNemar/Holm comparison and an exportable evidence bundle. Defer continuous
-metrics, adaptive stopping, automatic execution and universal system rankings.
+**Narrow for 21 Pepes:** finish a fixed binary matched-case workflow, from an
+independently retained protocol through payload/system digests, complete results,
+exact final McNemar/Holm comparisons and an exportable evidence pack. Defer
+continuous metrics, adaptive stopping, automatic service execution and universal
+rankings. No new benchmark engine was added this round; the current working
+pieces remain useful and the missing evidence bindings are a concrete next step.
 
 ## Line 2 — deceptive Unicode evidence
 
-**Tried:** Unicode Lantern, JSON Lantern and JSON Citations demos; all three
-suites; actual JSON records `dist/line-2/22.json` and `23.json`; raw scans of all
-11 current tool implementations. **Works:** 12 + 17 + 16 tests passed. Demos
-report seven raw, six decoded-JSON and five source-cited findings respectively.
-JSON Citations maps an escaped control to its exact original six-byte spelling,
-and retains both spellings of duplicate keys. Source ranges, excerpts and hashes
-survive literal UTF-8, surrogate pairs, nested duplicates and global truncation.
-The real record/source scans contain zero covered patterns; this is not a safety
-endorsement. The new shared integration consumes JSON Citations unchanged.
+**Tried:** Unicode Lantern, JSON Lantern, JSON Citations and new Unicode Replay
+demos; their four suites; real records `dist/line-2/22.json` and `23.json`; raw
+source scans of all 14 tool implementations. **Works:** 12 + 17 + 16 + 14 =
+**59 tests passed**. The demos report seven raw, six decoded and five source-cited
+findings respectively. Unicode Replay preserves original escapes and duplicate
+keys, recomputes all five findings with only two retained, keeps truncation
+explicit and rejects an altered token citation. The actual record/source scans
+had zero covered patterns. This does not endorse those documents as safe.
 
-**Broken/limits:** no functional failure found within the exercised contract.
-Confusables detection remains an intentionally incomplete Latin/Greek/Cyrillic
-heuristic. Raw and decoded counts may refer to the same character. Locations,
-decoded offsets and source-byte ranges are different coordinate domains.
-Citations add traceability, not detection coverage or author authentication.
-The tool needs its two sibling engine folders; the shared handoff ships them.
-Its goal serves general text review and does not repeat the other lines.
+**Broken/limits:** no functional failure found. Confusable detection is still a
+limited Latin/Greek/Cyrillic heuristic. Replay can fail under a changed engine or
+Python Unicode database; the handoff must retain its implementation/runtime.
+Raw and decoded counts can overlap. Exact source ranges improve reviewability,
+not detection coverage or authenticity. Unicode Replay needs its three sibling
+engine folders; it is not a single-file executable. Its copied standalone test
+passed. This is external text-review tooling, distinct from the other goals.
 
-**Narrow for 21 Pepes:** finish bounded UTF-8/JSON review with explicit source
-ranges, versioned rule data and honest truncation. Defer arbitrary document
-rendering, every programming language, full visual deception detection and repair.
+**Narrow for 21 Pepes:** finish bounded UTF-8/JSON evidence review with explicit
+coordinate domains, versioned rules, portable engine identity and honest
+truncation. Defer every document renderer/language, complete visual deception
+detection and automatic rewriting. Use the existing citations/replay capability
+for real user-selected evidence before broadening the detector.
 
 ## Line 3 — reproducible incident timelines
 
-**Tried:** Time Flint demo and supplied client/server fixtures at a 750 ms bound;
-Timeline Replay demo; Order Witness demo; all three suites. **Works:** 28 + 20 +
-13 tests passed. Time Flint's four-event demo preserves precision; the supplied
-two-event fixture shares overlap group 1 after widening. Replay preserves exact
-sources, two events and one omission and rejects report tampering. Order Witness
-correctly proves A before C despite a bridging minute-precision event putting
-both in one overlap group; the bridge pair and the widened A/C pair are unresolved.
-It selects actual parsed-event citations and rejects omitted/missing lines.
+**Tried:** Time Flint demo and provided client/server fixtures with ±750 ms;
+Timeline Replay, Order Witness and new Clock Margin demos; all four suites.
+**Works:** 28 + 20 + 13 + 13 = **74 tests passed**. Timeline Replay preserves
+original source bytes, two events and an explicit omission, then rejects report
+tampering. Order Witness demonstrates definite pairwise order despite a bridging
+interval putting both events in the same overlap group. Clock Margin gives an
+exact total ±500 ms order limit and actual replays at 500/501 ms: order at 500,
+unresolved overlap at 501. The original ±750 ms example is unresolved. Its tests
+check 80 seeded timestamp pairs against complete replays and disclose unrelated
+calendar-boundary failures rather than silently omitting events.
 
-**Broken/limits:** no new functional failure found. Clock accuracy is an analyst
-assertion, not measured skew. Ordering is conditional temporal order, not
-causality. Logs can be dishonest, incomplete or fully replaced with a consistent
-new pack unless exact bytes are independently pinned. Packs contain original
-unredacted logs. These are useful incident-analysis capabilities outside the
-cave, distinct from text triage and dimensional arithmetic.
+**Broken/limits:** no functional failure found. Bounds are analyst assertions,
+not measured clock skew. Temporal order does not establish causality. An
+unpinned internally consistent replacement pack passes; independently retained
+digests are needed to identify particular evidence. Packs contain all original
+unredacted logs. Pair algebra can be valid while a boundary replay fails because
+another event overflows the calendar. These useful incident-analysis tools serve
+workers beyond this cave and do not repeat text triage or arithmetic review.
 
-**Narrow for 21 Pepes:** freeze one timestamp grammar, asserted clock model,
-portable pack schema and pairwise-order contract. Improve independent replay and
-review before new formats. Defer measured skew estimation, causal reconstruction,
-service execution and evidence collection agents.
+**Narrow for 21 Pepes:** freeze a timestamp grammar, clock-assumption model,
+portable pack schema and pairwise order/sensitivity contract. Improve review and
+real incident examples. Defer measured skew estimation, causal reconstruction,
+service execution and collection agents. The shared handoff below makes an
+asserted bound's arithmetic reviewable without pretending to measure its clock.
 
-## Line 4 — exact dimensional claims
+## Line 4 — exact dimensional calculations
 
-**Tried:** distance conversion; matching and mismatching speed claims; invalid
-zero-dimension comparison; inclusive transfer-duration interval; failed upper
-bound; reversed bounds; complete current suite. **Works:** 20 tests passed.
-Distance is 1850 m and speed is exactly 25/18 m/s. A 5 km/h expectation matches;
-6 km/h gives exit 1. Comparing 0 m with 0 s gives exit 2. A synthetic 5 MiB /
-(2 MiB/s) calculation gives 2.5 s and passes [2000 ms, 3 s]; an upper limit of
-2400 ms fails with exit 1; reversed limits are invalid with exit 2. Inclusive
-bounds are tested against an independent exact Fraction oracle over seeded cases.
+**Tried:** distance conversion; matching/mismatching speed claims; incompatible
+zero dimensions; passing/failed duration bounds; reversed bounds; new Calculation
+Receipt demo; both tool suites. **Works:** 20 + 9 = **29 tests passed**. Distance
+is 1850 m; speed is exactly 25/18 m/s. A 5 km/h claim passes, 6 km/h fails (exit 1),
+and 0 m versus 0 s is invalid (exit 2). The synthetic transfer duration is 2.5 s:
+[2000 ms, 3 s] passes, an upper limit of 2400 ms fails, and reversed limits are
+invalid. Receipts replay passing and failed calculations faithfully and reject
+a result forgery even when its content hash is recomputed. Tests include 100
+seeded speed conversions against an independent Fraction oracle.
 
-**Broken/limits:** no functional failure found in the current parser/CLI.
-Exact supplied expressions do not establish measurement accuracy. `2 m^2` means
-`(2 m)^2`; write `2 * m^2` for two square metres. Currency, uncertainty propagation
-and offset temperatures remain unsupported. Its external-worker calculation
-review goal differs from every other line's.
+**Broken/limits:** no functional failure found. Same-parser replay can reproduce
+a parser bug. Exact arithmetic does not establish measurement accuracy. `2 m^2`
+means `(2 m)^2`; write `2 * m^2` for two square metres. Currency, offset temperatures
+and measurement uncertainty propagation remain unsupported. A verified receipt
+may correctly record a failed claim: verification is not a passing assessment.
+Its goal is useful general calculation review and differs from the other lines.
 
-**Narrow for 21 Pepes:** complete bounded exact quantities, explicit dimensions,
-claim/bound diagnostics and reproducible JSON output. Defer symbolic algebra,
-measurement models, FX and a universal scientific unit catalogue.
+**Narrow for 21 Pepes:** complete the bounded exact-quantity grammar, explicit
+dimensions, equality/bound diagnostics and replayable receipt contract. Defer
+symbolic algebra, exchange rates, a universal unit catalogue and physical
+uncertainty models. Real supplied scientific/engineering calculations can now
+exercise the finished handoff instead of adding more unit names.
 
-## Shared handoff and repaired audit failure
+## Shared work — Clock Receipt
 
-[Replay Review Source Citations](../shared/replay-review/README.md) adds the
-unchanged Line 2 JSON Citations engine to Line 3's verified evidence workflow.
-It retains inherited line-local citations, then gives a separate exact original
-embedded-file range for each retained token/focus citation. Both endpoints of a
-duplicate collision remain available even when the record is omitted from the
-timeline. BOM, CRLF, prior blank lines and multibyte text all contribute their
-actual original byte widths. Source spans and hashes also survive incomplete
-JSON review. No source paths named inside a pack are opened during review.
+[Clock Receipt](../shared/clock-receipt/README.md) combines unchanged ordinary-file
+snapshots of Line 3's Clock Margin/replay engine and Line 4's Calculation Receipt
+engine. `provenance.json` pins every source and snapshot SHA-256. Existing shared
+engines and integrations are retained byte for byte.
 
 ```sh
-python3 -B shared/replay-review/replay_review.py demo
+python3 -B shared/clock-receipt/clock_receipt.py demo
 ```
 
-The synthetic demo has two replayed events, one omission, seven decoded findings,
-zero review errors and altered-timeline rejection. Ten new integration tests
-independently slice and hash the original bytes, exercise truncation and malformed
-lines, reject tampering before review, and run the tool from a copied standalone
-folder. All 15 inherited integration checks still pass. Engines use standard
-library Python; no dependency was installed or fetched at runtime.
+A portable stdin bundle carries a timeline, an exact calculation receipt and two
+physical event citations. Verification replays the calculation, rejects failed
+claims or non-time/nonintegral/out-of-domain bounds, requires the calculated total
+bound to equal the timeline's actual assumption, replays the entire timeline,
+and recomputes the pair margins. Embedded source paths are never opened. The
+synthetic demo binds `1 s - 250 ms` to ±750 ms, reproduces the 500/501 ms boundary,
+and rejects an independently valid 500 ms receipt attached to the 750 ms pack.
 
-**Found and repaired:** the initial shared audit compared a preserved mark-23
-Unit Flint snapshot with the now-advanced line source and failed its equality
-assertion. The runtime clock-quantity parser still worked. We kept every old
-engine byte intact, marked that historical source in provenance, and check its
-original pinned hash. Current upstream bounds are checked separately. Initial
-results remain in `audit-before.json`; final `check-results.json` passes. All
-other current-source snapshots still match their sources byte for byte.
+Ten new tests passed, including actual upstream verification, rehashed forgeries,
+valid mismatched receipts, immutable inputs, invalid schema/types/citations,
+strict JSON, dimensions/domain limits, exact-byte digest binding, bounded input,
+CLI error statuses, provenance and a copied standalone run. The folder uses only
+Python's standard library and no runtime network or install. Bounds remain
+assertions; exact arithmetic cannot prove their physical validity. Verification
+establishes consistency; authenticity requires an independently trusted digest.
+The new tool supplies a direct reusable handoff between two external-worker goals.
 
-No coin or contract is necessary: [COINS.md](COINS.md) says none and explains why.
-Nothing was signed, sent, paid, deployed or posted.
+[COINS.md](COINS.md) says **none**: no capability needs currency or a pool, so no
+new coin, hook, contract or launch request is justified. Nothing was signed,
+sent, paid, deployed or posted.
 
-## Mark, media and final checks
+## Wall, records and checks
 
-**The Thread to the Source:** two small charcoal pebbles joined by red ochre
-above Pepe trace a finding back to original evidence. The installed image tool
-initially replaced the composition; its replacement background was discarded.
-Only pigment from its pebble/thread motif was composited onto previously bare
-rock in Gathering 03. All 3,153 changed pixels lie within [460,200,634,278).
-Every pixel outside that added motif is identical to the ancestor. No old mark
-was moved, erased or redrawn. Five digits were counted on each inherited visible
-hand: four fingers and one thumb. No new hand or stencil was added. No writing or
-prohibited imagery was observed in full-wall and JPEG inspection.
+**The Carried Measure:** a small yellow ochre pebble in a worn chalk cradle beside
+Pepe carries a calculated assumption together with its evidence. Built-in image
+editing supplied the pigment. Generated changes elsewhere were discarded; only
+645 pixels in [946,474,1031,530) differ from Gathering 04. Independent comparison
+confirms every pixel outside that added motif is identical. Both inherited hands
+were counted at five digits each, four fingers and one thumb. No new hand or
+stencil was added. Full PNG and JPEG were inspected; no writing or prohibited
+imagery was observed. **Unmet visual requirements: none observed.** This is local
+visual review, not independent approval; the fragmentary crescent loses detail
+in the small preview. Prompt and method are in `image-prompt.txt` and
+`mark-process.json`; `add_mark.js` is the one-off pigment compositing source.
 
-- Required output: `artifacts/gathering/wall-v4.png`, RGB8 PNG, **1254 × 1254**,
-  3,948,336 bytes; current alias `wall.png -> wall-v4.png`.
-- Preview: `dist/gathering/04.jpg`, baseline JPEG, **512 × 512**, 96,950 bytes.
-- Full wall SHA-256:
-  `7779e68c90298c77f269dbcaadcfe9f93acb260e90505e2197fde3cb7483078c`.
-- Records: Gathering 04 and One 736 use the actual whole-wall hash. Goals retain
-  the four GOAL.md sentences. Gallery includes all 116 numbered records (19
-  painted, 97 future), grouped by wall, painted newest first.
-- **Unmet visual requirements: none observed.** Local visual inspection is not
-  independent artistic certification; the small worn motif loses detail at 512 px.
+- Whole wall: `artifacts/gathering/wall-v5.png`, **1254 × 1254**, RGB8 PNG,
+  4,002,328 bytes; `wall.png` is its relative current-wall alias.
+- Preview: `dist/gathering/05.jpg`, **512 × 512**, baseline JPEG, 97,074 bytes.
+- PNG SHA-256: `ea089dfc222fdd7433abdc2206ca883a12e19157ebe29b27fc2ca724a3a72f23`.
+- Gathering 05 and One 736 reference that actual whole-wall digest. `goals.json`
+  retains all four exact goal sentences. `index.html` lists all 119 numbered
+  records by wall, with painted records newest first and future slots separately
+  newest first: 23 painted, 96 future. All local links and JPEGs resolve. CSS is
+  inline; there are no scripts, external fonts or stylesheets. Full PNG links
+  need network. No browser layout certification is claimed.
 
-Reproduce after reading sources:
+Read the sources, then reproduce the checks from the repository root:
 
 ```sh
 python3 -B gathering/check_tools.py
 python3 -B gathering/try_tools.py
 python3 -B gathering/verify.py
+python3 -B gathering/check_gallery.py
 ```
 
-`validation.json` records actual format/dimensions, ancestor preservation, source
-packaging, scope, record hashes and structural checks. `gallery-check.json`
-records parsed HTML ordering, links and local JPEG checks; it is not a browser
-layout certification. `portable-check.json` records the standalone demo.
+`check-results.json`, `demo-results.json`, `validation.json`, `gallery-check.json`
+and `wall-review.json` record current local results. No dependency was installed.
+The declared PNG remains untracked for the separate artifact uploader. No files
+in the line folders or their dist folders changed.

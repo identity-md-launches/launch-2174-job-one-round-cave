@@ -2,6 +2,256 @@
   "checks_passed": true,
   "examples": [
     {
+      "name": "shared clock receipt",
+      "command": [
+        "python3",
+        "-B",
+        "shared/clock-receipt/clock_receipt.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "analysis": {
+          "boundary_replays": [
+            {
+              "bound_ms": 500,
+              "left": {
+                "end_utc_exclusive": "2026-10-18T10:00:01.500000Z",
+                "line": 1,
+                "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+                "source": "accepted.log",
+                "start_utc": "2026-10-18T09:59:59.500000Z"
+              },
+              "relation": "left-before-right",
+              "replayable": true,
+              "right": {
+                "end_utc_exclusive": "2026-10-18T10:00:03.500000Z",
+                "line": 1,
+                "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+                "source": "completed.log",
+                "start_utc": "2026-10-18T10:00:01.500000Z"
+              }
+            },
+            {
+              "bound_ms": 501,
+              "left": {
+                "end_utc_exclusive": "2026-10-18T10:00:01.501000Z",
+                "line": 1,
+                "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+                "source": "accepted.log",
+                "start_utc": "2026-10-18T09:59:59.499000Z"
+              },
+              "relation": "unresolved-overlap",
+              "replayable": true,
+              "right": {
+                "end_utc_exclusive": "2026-10-18T10:00:03.501000Z",
+                "line": 1,
+                "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+                "source": "completed.log",
+                "start_utc": "2026-10-18T10:00:01.499000Z"
+              }
+            }
+          ],
+          "current_bound_ms": 750,
+          "current_relation": "unresolved-overlap",
+          "first_overlap_bound_in_supported_domain_ms": 501,
+          "format": "clock-margin/1",
+          "interpretation": "Total symmetric clock bounds, not additional error or measured skew. Pair limits are interval algebra; boundary replays can fail on other events or calendar/pack limits. No causality or authenticity claim.",
+          "max_order_bound_in_supported_domain_ms": 500,
+          "pair_order_limit_ms": 500,
+          "replay": {
+            "clock_uncertainty_ms": 750,
+            "events": 2,
+            "omitted": 0,
+            "sources": 2,
+            "verified": true
+          },
+          "zero_bound_left": {
+            "end_utc_exclusive": "2026-10-18T10:00:01Z",
+            "line": 1,
+            "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+            "source": "accepted.log",
+            "start_utc": "2026-10-18T10:00:00Z"
+          },
+          "zero_bound_relation": "left-before-right",
+          "zero_bound_right": {
+            "end_utc_exclusive": "2026-10-18T10:00:03Z",
+            "line": 1,
+            "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+            "source": "completed.log",
+            "start_utc": "2026-10-18T10:00:02Z"
+          }
+        },
+        "asserted_total_bound_ms": 750,
+        "different_valid_bound_rejected": true,
+        "verified": true
+      }
+    },
+    {
+      "name": "Unicode replay",
+      "command": [
+        "python3",
+        "-B",
+        "line-2/tools/unicode-replay/unicode_replay.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "verified": true,
+        "retained_findings": 2,
+        "truncated": true,
+        "altered_citation_rejected": true,
+        "finding_count": 5,
+        "assessment": "review-required"
+      }
+    },
+    {
+      "name": "clock sensitivity",
+      "command": [
+        "python3",
+        "-B",
+        "line-3/tools/clock-margin/clock_margin.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "analysis": {
+          "boundary_replays": [
+            {
+              "bound_ms": 500,
+              "left": {
+                "end_utc_exclusive": "2026-10-18T10:00:01.500000Z",
+                "line": 1,
+                "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+                "source": "accepted.log",
+                "start_utc": "2026-10-18T09:59:59.500000Z"
+              },
+              "relation": "left-before-right",
+              "replayable": true,
+              "right": {
+                "end_utc_exclusive": "2026-10-18T10:00:03.500000Z",
+                "line": 1,
+                "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+                "source": "completed.log",
+                "start_utc": "2026-10-18T10:00:01.500000Z"
+              }
+            },
+            {
+              "bound_ms": 501,
+              "left": {
+                "end_utc_exclusive": "2026-10-18T10:00:01.501000Z",
+                "line": 1,
+                "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+                "source": "accepted.log",
+                "start_utc": "2026-10-18T09:59:59.499000Z"
+              },
+              "relation": "unresolved-overlap",
+              "replayable": true,
+              "right": {
+                "end_utc_exclusive": "2026-10-18T10:00:03.501000Z",
+                "line": 1,
+                "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+                "source": "completed.log",
+                "start_utc": "2026-10-18T10:00:01.499000Z"
+              }
+            }
+          ],
+          "current_bound_ms": 750,
+          "current_relation": "unresolved-overlap",
+          "first_overlap_bound_in_supported_domain_ms": 501,
+          "format": "clock-margin/1",
+          "interpretation": "Total symmetric clock bounds, not additional error or measured skew. Pair limits are interval algebra; boundary replays can fail on other events or calendar/pack limits. No causality or authenticity claim.",
+          "max_order_bound_in_supported_domain_ms": 500,
+          "pair_order_limit_ms": 500,
+          "replay": {
+            "clock_uncertainty_ms": 750,
+            "events": 2,
+            "omitted": 0,
+            "sources": 2,
+            "verified": true
+          },
+          "zero_bound_left": {
+            "end_utc_exclusive": "2026-10-18T10:00:01Z",
+            "line": 1,
+            "line_sha256": "6c6fccad5faaefc26c00d7ee6ae1092d98f05b574edbf2241517b5d0b6cc1331",
+            "source": "accepted.log",
+            "start_utc": "2026-10-18T10:00:00Z"
+          },
+          "zero_bound_relation": "left-before-right",
+          "zero_bound_right": {
+            "end_utc_exclusive": "2026-10-18T10:00:03Z",
+            "line": 1,
+            "line_sha256": "de779b3e4a2b6c6c6cc42072eb2c722cb0dde5205cbfc4157b2a2abcfd90b82d",
+            "source": "completed.log",
+            "start_utc": "2026-10-18T10:00:02Z"
+          }
+        }
+      }
+    },
+    {
+      "name": "calculation receipt",
+      "command": [
+        "python3",
+        "-B",
+        "line-4/tools/calculation-receipt/receipt.py",
+        "demo"
+      ],
+      "expected_exit": 0,
+      "exit_code": 0,
+      "passed": true,
+      "observed": {
+        "matching_receipt": {
+          "verified": true,
+          "receipt_sha256": "75de69ab94f143f2d263c98179883b60bb56e237de6f0c708b3d9e1a58dd26a6",
+          "calculation_exit": 0,
+          "result": {
+            "expression": "5 MiB / (2 MiB/s)",
+            "value": "2.5",
+            "unit": "s",
+            "base_value": "2.5",
+            "base_unit": "s",
+            "dimensions": {
+              "length": 0,
+              "mass": 0,
+              "time": 1,
+              "data": 0
+            },
+            "check": {
+              "expression": "2500 ms",
+              "expected_base_value": "2.5",
+              "difference_base_value": "0",
+              "base_unit": "s",
+              "matches": true
+            },
+            "bounds": {
+              "base_unit": "s",
+              "inclusive": true,
+              "at_least": {
+                "expression": "2 s",
+                "base_value": "2",
+                "passes": true
+              },
+              "at_most": {
+                "expression": "3 s",
+                "base_value": "3",
+                "passes": true
+              },
+              "passes": true
+            }
+          }
+        },
+        "failed_bound_verified": true,
+        "failed_bound_calculation_exit": 1,
+        "rehashed_altered_result_rejected": true
+      }
+    },
+    {
       "name": "paired verdict demo",
       "command": [
         "python3",
@@ -206,6 +456,7 @@
       "exit_code": 0,
       "passed": true,
       "observed": {
+        "truncated": false,
         "finding_count": 7,
         "assessment": "review-required",
         "sha256": "7f17bd4cb302aff6547f61f8bb97d85403b5290806ac642e472ca0e146553ddc"
@@ -223,6 +474,7 @@
       "exit_code": 0,
       "passed": true,
       "observed": {
+        "truncated": false,
         "finding_count": 6,
         "assessment": "review-required",
         "sha256": "066cc7a87f503dd2da5679a1168e6b9a77fd682e0f3408799e58083ddeabf42c"
@@ -241,6 +493,7 @@
       "exit_code": 0,
       "passed": true,
       "observed": {
+        "truncated": false,
         "finding_count": 0,
         "assessment": "no-covered-patterns-found",
         "sha256": "395bd8167eeb9441c1c082cdb26bf4953f7aafb2e7e60bd28616c05c98a50290"
@@ -459,6 +712,7 @@
       "exit_code": 0,
       "passed": true,
       "observed": {
+        "truncated": false,
         "finding_count": 5,
         "assessment": "review-required",
         "sha256": "6041529b8515405f820466096a25d48876a0c98f3d6576de4a74189b9f53f2d2"
@@ -477,6 +731,7 @@
       "exit_code": 0,
       "passed": true,
       "observed": {
+        "truncated": false,
         "finding_count": 0,
         "assessment": "no-covered-patterns-found",
         "sha256": "f13b8825b51e461677535b7704fa8d36f249afdba87c82e8368cf49bf3433ebb"

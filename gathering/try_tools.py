@@ -7,6 +7,10 @@ import sys
 
 ROOT = Path(__file__).resolve().parent.parent
 CASES = [
+ ('shared clock receipt', ['shared/clock-receipt/clock_receipt.py', 'demo'], 0),
+ ('Unicode replay', ['line-2/tools/unicode-replay/unicode_replay.py', 'demo'], 0),
+ ('clock sensitivity', ['line-3/tools/clock-margin/clock_margin.py', 'demo'], 0),
+ ('calculation receipt', ['line-4/tools/calculation-receipt/receipt.py', 'demo'], 0),
  ('paired verdict demo', ['line-1/tools/paired-verdict/paired_verdict.py', '--demo'], 0),
  ('paired verdict CSV', ['line-1/tools/paired-verdict/paired_verdict.py', '--input', 'line-1/tools/paired-verdict/example.csv'], 0),
  ('candidate ladder', ['line-1/tools/candidate-ladder/candidate_ladder.py', '--demo'], 0),
@@ -44,7 +48,7 @@ def main():
         if run.stdout:
             value = json.loads(run.stdout)
             # Small numeric/evidence summaries; full reports are reproducible.
-            keys = ['paired_cases', 'table', 'test', 'candidates', 'comparison_threshold',
+            keys = ['analysis', 'asserted_total_bound_ms', 'different_valid_bound_rejected', 'matching_receipt', 'failed_bound_verified', 'failed_bound_calculation_exit', 'rehashed_altered_result_rejected', 'verified', 'retained_findings', 'truncated', 'altered_citation_rejected', 'paired_cases', 'table', 'test', 'candidates', 'comparison_threshold',
                     'smallest_evaluated_size_meeting_target', 'sizes', 'finding_count',
                     'assessment', 'sha256', 'value', 'unit', 'check', 'replay',
                     'tampered_report_rejected', 'tampered_timeline_rejected', 'review_errors',
